@@ -1,0 +1,8 @@
+18:36:52.704 [main] INFO  javaresources.base - driver is intialised
+18:37:00.324 [main] INFO  javaresources.base - navigated to homepage
+18:37:00.436 [main] INFO  javaresources.base - text validated succesfully
+18:57:35.569 [main] INFO  javaresources.base - driver is intialised
+18:57:43.679 [main] INFO  javaresources.base - navigated to homepage
+18:57:44.002 [main] INFO  javaresources.base - text validated succesfully
+18:58:28.319 [main] INFO  javaresources.base - logged in successfully
+18:58:33.382 [main] INFO  javaresources.base - logged in successfully

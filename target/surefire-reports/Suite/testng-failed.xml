@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Academy.E2EProject.HomePage">
+        <methods>
+          <include name="homepageNavigation" invocation-numbers="0 1"/>
+          <include name="intialisedrive"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.HomePage -->
+      <class name="Academy.E2EProject.asserition">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialisedrive"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.asserition -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

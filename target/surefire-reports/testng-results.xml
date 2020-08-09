@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="58627" started-at="2020-08-07T09:46:24Z" finished-at="2020-08-07T09:47:23Z">
+    <groups>
+    </groups>
+    <test name="Vlidate user login" duration-ms="40966" started-at="2020-08-07T09:46:24Z" finished-at="2020-08-07T09:47:05Z">
+      <class name="Academy.E2EProject.HomePage">
+        <test-method status="PASS" signature="intialisedrive()[pri:0, instance:Academy.E2EProject.HomePage@eadd4fb]" name="intialisedrive" is-config="true" duration-ms="4831" started-at="2020-08-07T15:16:24Z" finished-at="2020-08-07T15:16:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisedrive -->
+        <test-method status="PASS" signature="homepageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EProject.HomePage@eadd4fb]" name="homepageNavigation" duration-ms="31064" started-at="2020-08-07T15:16:29Z" data-provider="getdata" finished-at="2020-08-07T15:17:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restrictuser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageNavigation -->
+        <test-method status="PASS" signature="homepageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EProject.HomePage@eadd4fb]" name="homepageNavigation" duration-ms="4619" started-at="2020-08-07T15:17:00Z" data-provider="getdata" finished-at="2020-08-07T15:17:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestrictuser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.E2EProject.HomePage@eadd4fb]" name="teardown" is-config="true" duration-ms="376" started-at="2020-08-07T15:17:05Z" finished-at="2020-08-07T15:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.E2EProject.HomePage -->
+    </test> <!-- Vlidate user login -->
+    <test name="Validating title" duration-ms="16079" started-at="2020-08-07T09:47:07Z" finished-at="2020-08-07T09:47:23Z">
+      <class name="Academy.E2EProject.asserition">
+        <test-method status="PASS" signature="intialisedrive()[pri:0, instance:Academy.E2EProject.asserition@14fc5f04]" name="intialisedrive" is-config="true" duration-ms="15851" started-at="2020-08-07T15:17:07Z" finished-at="2020-08-07T15:17:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisedrive -->
+        <test-method status="PASS" signature="homepageNavigation()[pri:0, instance:Academy.E2EProject.asserition@14fc5f04]" name="homepageNavigation" duration-ms="78" started-at="2020-08-07T15:17:22Z" finished-at="2020-08-07T15:17:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.E2EProject.asserition@14fc5f04]" name="teardown" is-config="true" duration-ms="149" started-at="2020-08-07T15:17:23Z" finished-at="2020-08-07T15:17:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.E2EProject.asserition -->
+    </test> <!-- Validating title -->
+    <test name="Test" duration-ms="0" started-at="2020-08-07T09:47:23Z" finished-at="2020-08-07T09:47:23Z">
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
